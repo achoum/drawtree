@@ -5,9 +5,11 @@ achoum@gmail.com
 
 ## Description
 
-This script draws a tree (in text mode) front of a set of tabulated text file.
+DrawTree is a command line tool used to augment recursive lists (i.e. trees).
 
 ## Example
+
+Input:
 
 ```
 DoAny
@@ -26,7 +28,7 @@ DoAny
 	RandomWalk
 ```
 
-Becomes
+Output:
 
 ```
 DoAny
@@ -49,7 +51,8 @@ DoAny
   |    +--Eat(x)
   +--RandomWalk
 ```
-Here is a full example with in a command line:
+
+Command line example:
 
 ```
 echo -e "DoAny \n\
@@ -70,7 +73,7 @@ echo -e "DoAny \n\
 
 ## Options
 
-There is currently no proper command line options. To change the parameters, you can change the uppercase variable at the top of the script (this need to be improved :) ).
+There is currently command line options. Instead, the options are modifiable by editing various constants defined at the top of the script.
 
 These options are:
 
